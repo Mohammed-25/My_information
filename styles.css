@@ -1,0 +1,128 @@
+body {
+    background: url('hero.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #060606;
+    color: wheat;
+    padding: 10px 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333; /* Dark background for navbar */
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded corners */
+}
+
+nav a {
+    color: wheat; /* Text color */
+    margin: 0 15px;
+    text-decoration: none;
+    padding: 10px 15px; /* Padding for clickable area */
+    border-radius: 5px; /* Rounded corners for links */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+nav a:hover {
+    background-color: #000000; /* Change background on hover */
+}
+
+nav a.active {
+    background-color: #070707; /* Highlight active link */
+    font-weight: bold; /* Bold text for active link */
+}
+.hero {
+    
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: wheat;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.about{
+    
+     text-align: center;
+   
+  
+    color: wheat;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+.cards {
+    
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.cards :hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    transition: transform 0.3s; /* Smooth transition */
+}
+.card {
+    border: 1px solid #050505;
+    border-radius: 8px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    color: wheat;
+}
+
+#contact {
+    background-color: rgba(6, 0, 0, 0.533); /* Light background color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(194, 171, 71, 0.795); /* Add shadow for depth */
+    max-width: 600px; /* Limit width */
+    margin: 20px auto; /* Center the section */
+    text-align: center; /* Center text */
+}
+
+#contact h2 {
+    
+    margin-bottom: 20px; /* Space below the heading */
+    font-size: 24px; /* Slightly larger font */
+}
+
+form {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.h2_cont {
+
+    color: wheat;
+}
+
+form input, form textarea {
+    margin: 10px 0;
+    padding: 15px; /* Increased padding for comfort */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size */
+}
+
+form input:focus, form textarea:focus {
+    border-color: #ffffff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+form button {
+    padding: 15px;
+    background-color: rgba(245, 222, 179, 0);
+    color: wheat;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Larger font size */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+form button:hover {
+    background-color: rgb(0, 0, 0); /* Darker green on hover */
+    color: red;
+}
